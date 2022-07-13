@@ -1,0 +1,8 @@
+/* selects all p tags */
+h1 {
+  background-color: chartreuse;
+}
+
+p {
+  background-color: aqua;
+}
