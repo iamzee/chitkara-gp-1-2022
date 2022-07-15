@@ -1,0 +1,35 @@
+input[type='number'] {
+  background-color: palevioletred;
+}
+
+input[disabled] {
+  background-color: palegoldenrod;
+}
+
+/* selects all anchor tags
+  having href attribute = http://gooogle.com 
+*/
+a[href='http://gooogle.com'] {
+  background-color: peachpuff;
+}
+
+/* selects all anchor tags whose href attribute
+  starts with https
+*/
+a[href^='https'] {
+  background-color: aquamarine;
+}
+
+/* selects all anchor tags whose href attribute
+  ends with .in
+*/
+a[href$='.in'] {
+  background-color: azure;
+}
+
+/* selects all anchor tags whose href attribute
+  contains coding
+*/
+a[href*='coding'] {
+  background-color: blueviolet;
+}
