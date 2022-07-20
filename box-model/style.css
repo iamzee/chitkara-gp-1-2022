@@ -1,0 +1,27 @@
+/*
+  width
+  height
+  margin
+  border
+  padding
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  background-color: palevioletred;
+  width: 200px;
+  /* height: 400px; */
+  /* margin: 50px; */
+  /* margin-top: 50px; */
+  /* margin: 20px 30px 40px 50px; */
+  /* margin: 20px 30px; */
+  margin: 20px auto;
+
+  border: 5px solid black;
+
+  padding: 20px;
+}
