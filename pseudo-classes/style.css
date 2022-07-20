@@ -31,3 +31,15 @@ li:first-child {
 h1:nth-of-type(3n+1) {
   background-color: palevioletred;
 }
+
+p::first-letter {
+  font-size: 36px;
+}
+
+p::first-line {
+  background-color: palegreen;
+}
+
+input::placeholder {
+  color: black;
+}
