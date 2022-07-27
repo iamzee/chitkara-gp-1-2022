@@ -1,0 +1,35 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  animation-name: kuchbhi;
+  animation-duration: 10s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  /* animation-direction: ; */
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+
+.box:hover {
+  animation-play-state: running;
+}
+
+@keyframes kuchbhi {
+  0% {
+    /*initial styles*/
+    height: 100px;
+  }
+
+  50% {
+    height: 400px;
+    background-color: red;
+  }
+
+  100% {
+    /* final styles*/
+    height: 300px;
+    background-color: green;
+  }
+}
