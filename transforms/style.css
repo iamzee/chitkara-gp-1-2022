@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: rebeccapurple;
+  transition-duration: 5s;
+}
+
+.box:hover {
+  /* transform: translateX(100px); */
+  /* transform: translateY(100px); */
+  /* transform: translate(100px, 100px); */
+
+  /* transform: scale(2); */
+
+  transform: rotate(180deg);
+}
