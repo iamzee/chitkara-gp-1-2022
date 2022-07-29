@@ -2,14 +2,16 @@
   width: 100px;
   height: 100px;
   background-color: rebeccapurple;
-  animation-name: kuchbhi;
+  /* animation-name: kuchbhi;
   animation-duration: 10s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
   animation-iteration-count: 1;
-  /* animation-direction: ; */
+  animation-direction: normal;
   animation-fill-mode: forwards;
-  animation-play-state: paused;
+  animation-play-state: paused; */
+
+  animation: 10s ease-in 0s 1 normal forwards paused kuchbhi;
 }
 
 .box:hover {
@@ -20,6 +22,7 @@
   0% {
     /*initial styles*/
     height: 100px;
+    background-color: black;
   }
 
   50% {
