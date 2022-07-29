@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  /* background-color: rebeccapurple; */
+
+  border-top: 10px solid green;
+  border-bottom: 10px solid #eee;
+  border-right: 10px solid #eee;
+  border-left: 10px solid #eee;
+  border-radius: 50%;
+  
+  animation-name: rotate;
+  animation-duration: 900ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
